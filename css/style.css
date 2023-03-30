@@ -7,14 +7,14 @@ html{
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: rgb(209, 241, 235);
+    background-color: white;
 }
 .row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     }
-header{
+.head1{
     background-image: url(../img/header.png); 
     width: 100%;
     height: 90vh;
@@ -59,13 +59,21 @@ footer{
 }
 .column25{
     width: 25%;
+    text-align: center;
 }
 img{
     width: 300px;
 }
+.bod1{
+    margin: 0;
+    background-color: rgb(236, 241, 191);
+}
+.column50{
+    width: 50%;
+}
+
 @media screen and (max-width: 800px){
 .column25{
     width: 50%;
 }
-
 }
