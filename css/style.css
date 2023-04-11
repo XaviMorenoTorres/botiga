@@ -29,24 +29,25 @@ body{
     font-size: 3rem;
 }
 h2{
-    background: linear-gradient(rgb(201, 9, 9),rgb(255, 255, 0));
-    -webkit-background-clip: text;
-    color: transparent;
+    color: black;
     margin-top: 160px;
     font-family: 'Dancing Script', cursive;
     font-size: 8rem;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.471);
+    border-radius: 6px;
+    color: white;
 }
 h3{
     font-family: 'Dancing Script', cursive;
     text-align: center;
     font-size: 3rem;
 }
-.ropa{
-    background: linear-gradient(rgb(201, 9, 9),rgb(255, 255, 0));
-    -webkit-background-clip: text;
-    color: transparent;
+li{
     font-family: 'Dancing Script', cursive;
-    font-size: 3rem;
+    text-align: center;
+    font-size: 2rem;
 }
 a{
     color: rgb(255, 255, 255);
@@ -61,6 +62,15 @@ footer{
     width: 25%;
     text-align: center;
 }
+.margen{
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
 img{
     width: 300px;
 }
@@ -68,12 +78,47 @@ img{
     margin: 0;
     background-color: rgb(236, 241, 191);
 }
-.column50{
-    width: 50%;
+.bod2{
+    margin: 0;
+    background-color: rgb(216, 192, 128);
 }
+.bod3{
+    margin: 0;
+    background-color: rgb(161, 171, 236);
+}
+.bod4{
+    margin: 0;
+    background-color: rgb(216, 88, 233);
+}
+.bod5{
+    margin: 0;
+    background-color: rgb(183, 186, 191);
+}
+.bod6{
+    margin: 0;
+    background-color: rgb(244, 168, 102);
+}
+.column33{
+    width: 33%;
+    text-align: center;
+}
+.column100{
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.lista{
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+}
+
 
 @media screen and (max-width: 800px){
 .column25{
     width: 50%;
+}
+.column33{
+    width: 100%;
 }
 }
