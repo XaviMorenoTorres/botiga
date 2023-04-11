@@ -98,6 +98,10 @@ img{
     margin: 0;
     background-color: rgb(244, 168, 102);
 }
+.bod7{
+    margin: 0;
+    background-color: #b6eda0;
+}
 .column33{
     width: 33%;
     text-align: center;
@@ -123,6 +127,9 @@ img{
     width: 50%;
 }
 .column33{
+    width: 100%;
+}
+.column50{
     width: 100%;
 }
 }
