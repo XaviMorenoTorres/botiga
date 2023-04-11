@@ -110,6 +110,7 @@ img{
 }
 .column50{
     width: 50%;
+    text-align: center;
 }
 .lista{
     text-align: left;
